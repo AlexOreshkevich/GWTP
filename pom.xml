@@ -193,7 +193,7 @@
 
         <aopalliance.version>1.0</aopalliance.version>
         <cglib.version>2.2</cglib.version>
-        <gae.version>1.7.2</gae.version>
+        <gae.version>1.9.89</gae.version>
         <gin.version>2.0.0</gin.version>
         <guice.version>3.0</guice.version>
         <gwt.version>2.5.0</gwt.version>
@@ -206,7 +206,7 @@
         <persistence-api.version>1.0</persistence-api.version>
         <servlet-api.version>2.5</servlet-api.version>
         <spring.version>3.1.2.RELEASE</spring.version>
-        <gae.version>1.7.2</gae.version>
+        <gae.version>1.9.89</gae.version>
 
         <github.global.server>github</github.global.server>
         <github.version>0.6</github.version>
@@ -331,7 +331,7 @@
                     </dependencies>
                     <executions>
                         <execution>
-                            <id />
+                            <id/>
                             <phase>validate</phase>
                             <goals>
                                 <goal>unpack</goal>
@@ -359,7 +359,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -372,7 +372,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -389,7 +389,7 @@
                                         <!-- TODO(beaudoin): This should be `execute` but it fails. 
                                             The workaround is to manually run `mvn install`
                                             whenever the code generating files are changed. -->
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -402,7 +402,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -416,7 +416,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <!-- TODO: This disables checkstyle in Eclipse. It's a workaround
@@ -431,7 +431,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
